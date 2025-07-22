@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خدمات تایپی آقای اخلاقی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- نوار بالا -->
+  <header>
+    <h1>خدمات تایپی آقای اخلاقی</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">خانه</a></li>
+        <li><a href="#services">خدمات</a></li>
+        <li><a href="#order">سفارش</a></li>
+        <li><a href="#contact">تماس با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- بخش معرفی -->
+  <section id="home">
+    <h2>خوش آمدید!</h2>
+    <p>
+      من علی اخلاقی هستم، فارغ‌التحصیل کمپیوتر ساینس از پوهنتون بلخ.  
+      خدمات تایپی، تحقیق، پروژه و مشاوره را با دقت و قیمت مناسب ارائه می‌دهم.
+    </p>
+    <a href="#services" class="btn">مشاهده خدمات</a>
+  </section>
+
+  <!-- بخش خدمات -->
+  <section id="services">
+    <h2>خدمات من</h2>
+    <ul>
+      <li>📝 تایپ متون (PDF، تصویری، فایل اسکن)</li>
+      <li>📊 ساخت پاورپوینت حرفه‌ای</li>
+      <li>📚 تحقیق، مونوگراف و مقالات</li>
+      <li>💬 مشاوره در پروژه‌های دانشگاهی</li>
+    </ul>
+    <a href="#order" class="btn">سفارش آنلاین</a>
+  </section>
+
+  <!-- فرم سفارش -->
+  <section id="order">
+    <h2>فرم سفارش خدمات</h2>
+    <form>
+      <label for="name">نام:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">ایمیل:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">شماره تماس:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">نوع خدمات:</label>
+      <select id="service" name="service">
+        <option value="typing">تایپ</option>
+        <option value="powerpoint">پاورپوینت</option>
+        <option value="research">تحقیق</option>
+        <option value="consulting">مشاوره</option>
+      </select>
+
+      <label for="message">پیام:</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">ارسال سفارش</button>
+    </form>
+  </section>
+
+  <!-- تماس با ما -->
+  <section id="contact">
+    <h2>تماس با ما</h2>
+    <p>📞 تماس: 0700000000</p>
+    <p>📧 ایمیل: ali@example.com</p>
+    <p>💬 واتساپ: <a href="https://wa.me/93700000000" target="_blank">ارسال پیام در واتساپ</a></p>
+    <p>📍 آدرس: مزار شریف، ناحیه ...</p>
+  </section>
+
+  <!-- فوتر -->
+  <footer>
+    <p>© 2025 خدمات اخلاقی | طراحی‌شده توسط علی اخلاقی</p>
+  </footer>
+
+</body>
+</html>
